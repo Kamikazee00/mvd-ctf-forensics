@@ -1,0 +1,26 @@
+Username         Port     From                 Latest
+root             pts/0    192.168.1.2          Nov 07 22:10:14
+admin            pts/1    192.168.1.14         Nov 07 18:42:09
+analyst          pts/2    192.168.1.40         Nov 07 20:15:33
+backup           pts/0    192.168.1.5          Nov 08 00:58:19
+monitor          pts/1    192.168.1.8          Nov 08 02:24:30
+user1            pts/3    192.168.1.21         Nov 06 14:12:45
+user2            pts/4    192.168.1.25         Nov 06 16:30:11
+guest            **Never logged in**
+developer        pts/5    192.168.1.45         Nov 07 12:10:22
+operator         pts/6    192.168.1.51         Nov 07 13:22:18
+security         pts/7    192.168.1.60         Nov 07 15:41:09
+auditor          pts/8    192.168.1.70         Nov 07 16:12:33
+dbadmin          pts/9    192.168.1.80         Nov 07 17:01:48
+service          **Never logged in**
+webuser          pts/10   192.168.1.90         Nov 06 09:11:15
+tester           pts/11   192.168.1.91         Nov 06 11:25:42
+support          pts/12   192.168.1.92         Nov 06 13:40:19
+backup2          pts/13   192.168.1.93         Nov 05 18:22:11
+netadmin         pts/14   192.168.1.94         Nov 05 19:30:07
+intern           pts/15   192.168.1.95         Nov 04 10:10:10
+manager          pts/16   192.168.1.96         Nov 04 11:20:20
+analyst2         pts/17   192.168.1.97         Nov 04 12:30:30
+helpdesk         pts/18   192.168.1.98         Nov 03 14:40:40
+scanner          **Never logged in**
+readonly         pts/19   192.168.1.99         Nov 02 16:50:50

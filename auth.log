@@ -1,0 +1,80 @@
+Nov 08 00:41:02 server sshd[901]: Connection from 192.168.1.14 port 42001
+Nov 08 00:41:03 server sshd[901]: Failed password for admin from 192.168.1.14 port 42001 ssh2
+Nov 08 00:42:17 server sshd[905]: Connection from 192.168.1.18 port 42002
+Nov 08 00:42:18 server sshd[905]: Failed password for root from 192.168.1.18 port 42002 ssh2
+Nov 08 00:43:01 server CRON[910]: pam_unix(cron:session): session opened for user root
+Nov 08 00:43:04 server CRON[910]: pam_unix(cron:session): session closed for user root
+Nov 08 00:44:19 server sshd[914]: Failed password for user1 from 192.168.1.21 port 42005 ssh2
+Nov 08 00:45:33 server systemd[1]: Started Daily Cleanup Service
+Nov 08 00:46:10 server sshd[920]: Connection from 192.168.1.14 port 42008
+Nov 08 00:46:11 server sshd[920]: Failed password for admin from 192.168.1.14 port 42008 ssh2
+Nov 08 00:47:22 server kernel: eth0: link is up
+Nov 08 00:48:05 server CRON[925]: CMD (/usr/bin/updatedb)
+Nov 08 00:49:14 server sshd[929]: Failed password for root from 192.168.1.18 port 42012 ssh2
+Nov 08 00:50:31 server sshd[934]: Failed password for guest from 192.168.1.30 port 42015 ssh2
+Nov 08 00:51:09 server systemd[1]: Started Session Cleanup
+Nov 08 00:52:44 server sshd[940]: Failed password for admin from 192.168.1.14 port 42018 ssh2
+Nov 08 00:53:17 server CRON[944]: CMD (/usr/bin/logrotate)
+Nov 08 00:54:29 server sshd[949]: Failed password for root from 192.168.1.18 port 42022 ssh2
+Nov 08 00:55:40 server kernel: Firewall rules reloaded
+Nov 08 00:56:11 server sshd[955]: Failed password for user2 from 192.168.1.25 port 42025 ssh2
+Nov 08 00:57:03 server systemd[1]: Finished Session Cleanup
+Nov 08 00:58:18 server sshd[960]: Connection from 192.168.1.5 port 42028
+Nov 08 00:58:19 server sshd[960]: Accepted publickey for backup from 192.168.1.5 port 42028 ssh2
+Nov 08 00:58:19 server sshd[960]: pam_unix(sshd:session): session opened for user backup
+Nov 08 00:59:02 server CRON[965]: CMD (/usr/bin/backup-check)
+Nov 08 01:00:13 server sshd[970]: Failed password for admin from 192.168.1.14 port 42032 ssh2
+Nov 08 01:01:44 server sshd[975]: Failed password for root from 192.168.1.18 port 42035 ssh2
+Nov 08 01:02:07 server systemd[1]: Started Network Manager
+Nov 08 01:03:29 server CRON[980]: CMD (/usr/bin/apt-check)
+Nov 08 01:04:11 server sshd[985]: Failed password for user1 from 192.168.1.21 port 42040 ssh2
+Nov 08 01:05:56 server sshd[990]: Failed password for admin from 192.168.1.14 port 42043 ssh2
+Nov 08 01:07:20 server kernel: audit: service started
+Nov 08 01:08:45 server sshd[995]: Failed password for root from 192.168.1.18 port 42047 ssh2
+Nov 08 01:09:14 server CRON[1000]: CMD (/usr/bin/tmp-cleanup)
+Nov 08 01:10:22 server sshd[1005]: Failed password for guest from 192.168.1.30 port 42051 ssh2
+Nov 08 01:11:37 server systemd[1]: Reloading system manager
+Nov 08 01:12:09 server sshd[1010]: Failed password for admin from 192.168.1.14 port 42055 ssh2
+Nov 08 01:13:41 server sshd[1015]: Failed password for root from 192.168.1.18 port 42059 ssh2
+Nov 08 01:14:02 server CRON[1020]: CMD (/usr/bin/logrotate)
+Nov 08 01:15:18 server kernel: eth0: link is up
+Nov 08 01:16:33 server sshd[1025]: Failed password for user2 from 192.168.1.25 port 42063 ssh2
+Nov 08 01:17:49 server systemd[1]: Started Daily Cleanup Service
+Nov 08 01:18:54 server sshd[1030]: Failed password for admin from 192.168.1.14 port 42067 ssh2
+Nov 08 01:20:11 server CRON[1035]: CMD (/usr/bin/updatedb)
+Nov 08 01:21:25 server sshd[1040]: Failed password for root from 192.168.1.18 port 42071 ssh2
+Nov 08 01:22:39 server sshd[1045]: Failed password for user1 from 192.168.1.21 port 42075 ssh2
+Nov 08 01:23:51 server systemd[1]: Finished Daily Cleanup Service
+Nov 08 01:24:16 server sshd[1050]: Failed password for admin from 192.168.1.14 port 42079 ssh2
+Nov 08 01:25:30 server CRON[1055]: CMD (/usr/bin/backup-check)
+Nov 08 01:26:42 server sshd[1060]: Failed password for root from 192.168.1.18 port 42083 ssh2
+Nov 08 01:27:58 server kernel: Firewall rules reloaded
+Nov 08 01:29:04 server sshd[1065]: Failed password for guest from 192.168.1.30 port 42087 ssh2
+Nov 08 01:30:19 server sshd[1070]: Failed password for admin from 192.168.1.14 port 42091 ssh2
+Nov 08 01:31:44 server CRON[1075]: CMD (/usr/bin/logrotate)
+Nov 08 01:32:57 server sshd[1080]: Failed password for root from 192.168.1.18 port 42095 ssh2
+Nov 08 01:34:10 server systemd[1]: Started System Monitoring Service
+Nov 08 01:35:26 server sshd[1085]: Failed password for user2 from 192.168.1.25 port 42099 ssh2
+Nov 08 01:36:39 server kernel: audit: service running
+Nov 08 01:38:02 server CRON[1090]: CMD (/usr/bin/apt-check)
+Nov 08 01:39:17 server sshd[1095]: Failed password for admin from 192.168.1.14 port 42103 ssh2
+Nov 08 01:40:31 server sshd[1100]: Failed password for root from 192.168.1.18 port 42107 ssh2
+Nov 08 01:41:45 server systemd[1]: Reloading system manager
+Nov 08 01:43:02 server sshd[1105]: Failed password for user1 from 192.168.1.21 port 42111 ssh2
+Nov 08 01:44:19 server CRON[1110]: CMD (/usr/bin/tmp-cleanup)
+Nov 08 01:45:33 server sshd[1115]: Failed password for admin from 192.168.1.14 port 42115 ssh2
+Nov 08 01:47:01 server sshd[1120]: Failed password for root from 192.168.1.18 port 42119 ssh2
+Nov 08 02:03:11 server sshd[1130]: Accepted password for analyst from 10.20.30.77 port 51244 ssh2
+Nov 08 02:03:15 server sshd[1130]: pam_unix(sshd:session): session opened for user analyst
+Nov 08 02:03:16 server systemd-logind[720]: New session 44 of user analyst
+Nov 08 02:04:01 server systemd[1]: Started Session 44 of User analyst
+Nov 08 02:05:23 server CRON[1140]: CMD (/usr/bin/logrotate)
+Nov 08 02:08:17 server sshd[1150]: Failed password for root from 192.168.1.18 port 42155 ssh2
+Nov 08 02:11:02 server kernel: Firewall rules reloaded
+Nov 08 02:14:40 server sshd[1160]: Failed password for admin from 192.168.1.14 port 42161 ssh2
+Nov 08 02:17:09 server systemd[1]: Finished Daily Cleanup Service
+Nov 08 02:19:51 server CRON[1170]: CMD (/usr/bin/apt-check)
+Nov 08 02:21:13 server sshd[1180]: Failed password for user2 from 192.168.1.25 port 42170 ssh2
+Nov 08 02:24:30 server sshd[1190]: Accepted publickey for monitor from 192.168.1.8 port 42180 ssh2
+Nov 08 02:24:30 server sshd[1190]: pam_unix(sshd:session): session opened for user monitor
+Nov 08 02:30:00 server systemd[1]: Started System Monitoring Service

@@ -1,0 +1,26 @@
+uid,username,group,home_directory,description
+0,root,root,/root,System administrator
+1000,admin,sudo,/home/admin,Server administrator
+1001,analyst,users,/home/analyst,Security analysis account
+1002,backup,backup,/home/backup,Automated backup account
+1003,monitor,monitor,/opt/monitor,Monitoring service account
+1004,user1,users,/home/user1,Standard user
+1005,user2,users,/home/user2,Standard user
+1006,guest,guest,/home/guest,Temporary guest account
+1007,developer,developers,/home/developer,Software developer
+1008,operator,operators,/home/operator,Operations account
+1009,security,security,/home/security,Security department
+1010,auditor,audit,/home/auditor,Internal auditor
+1011,dbadmin,database,/home/dbadmin,Database administrator
+1012,service,service,/var/lib/service,System service account
+1013,webuser,www-data,/var/www,Web service user
+1014,tester,testing,/home/tester,QA tester
+1015,support,support,/home/support,Technical support
+1016,backup2,backup,/home/backup2,Secondary backup account
+1017,netadmin,network,/home/netadmin,Network administrator
+1018,intern,users,/home/intern,Intern account
+1019,manager,management,/home/manager,Department manager
+1020,analyst2,users,/home/analyst2,Secondary analyst
+1021,helpdesk,support,/home/helpdesk,Helpdesk operator
+1022,scanner,security,/opt/scanner,Automated scanning account
+1023,readonly,users,/home/readonly,Read only account

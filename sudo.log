@@ -1,0 +1,41 @@
+Nov 08 00:43:01 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/updatedb
+Nov 08 00:48:05 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 00:53:17 server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov 08 00:59:02 server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/backup-check
+Nov 08 01:03:29 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-check
+Nov 08 01:09:14 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tmp-cleanup
+Nov 08 01:14:02 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 01:20:11 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/updatedb
+Nov 08 01:25:30 server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/backup-check
+Nov 08 01:31:44 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 01:38:02 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-check
+Nov 08 01:44:19 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tmp-cleanup
+Nov 08 01:50:01 server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov 08 01:55:14 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 02:00:03 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-check
+Nov 08 02:03:20 server sudo[1188]: analyst : TTY=pts/2 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/sha256sum /srv/reports/archive.zip
+Nov 08 02:03:20 server sudo[1188]: pam_unix(sudo:session): session opened for user root by analyst(uid=1001)
+Nov 08 02:03:21 server sudo[1188]: analyst : command executed successfully
+Nov 08 02:03:24 server sudo[1188]: pam_unix(sudo:session): session closed for user root
+Nov 08 02:05:23 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 02:08:17 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-check
+Nov 08 02:11:02 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/firewall-check
+Nov 08 02:14:40 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 02:17:09 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tmp-cleanup
+Nov 08 02:19:51 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-check
+Nov 08 02:24:35 server sudo: monitor : TTY=pts/1 ; PWD=/opt/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status monitoring
+Nov 08 02:30:00 server sudo: monitor : TTY=pts/1 ; PWD=/opt/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status monitoring
+Nov 08 02:35:10 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 02:40:22 server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/backup-check
+Nov 08 02:45:33 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-check
+Nov 08 02:50:44 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tmp-cleanup
+Nov 08 02:55:55 server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov 08 03:00:01 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 03:05:12 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-check
+Nov 08 03:10:23 server sudo: monitor : TTY=pts/1 ; PWD=/opt/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status monitoring
+Nov 08 03:15:34 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tmp-cleanup
+Nov 08 03:20:45 server sudo: backup : TTY=pts/0 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/backup-check
+Nov 08 03:25:56 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/logrotate
+Nov 08 03:30:07 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-check
+Nov 08 03:35:18 server sudo: monitor : TTY=pts/1 ; PWD=/opt/monitor ; USER=root ; COMMAND=/usr/bin/systemctl status monitoring
+Nov 08 03:40:29 server sudo: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tmp-cleanup
